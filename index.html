@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <img id="background" src="pexels-felix-mittermeier-956981.jpg" alt="No image"> -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid mx-1">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="/index.php" class="nav-link btn btn-outline-success text-light mx-2">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#About-us" class="nav-link btn btn-success text-light">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#e-book" class="nav-link btn btn-success text-light mx-2">E-Books</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login/login.php" class="nav-link btn btn-outline-success text-light mx-2">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login/signup.php" class="nav-link btn btn-outline-success text-light mx-2">Sign Up</a>
+                </li>
+        </div>
+        <form class="d-flex col-lg-3">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light mx-3" type="submit">Search</button>
+        </form>
+        </ul>
+    </nav>
+
+    <div class="container m-5">
+        <div class="card">
+            <div class="card-header">
+                <h3><b>Art of Java Web Developement</b></h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <img id="book" class="col-5" src="/ebook-site/Books_Thumbnail/Art_of_Java_Web_Development.jpg" alt="Error">
+                    <div class="card col-7">
+                        <div class="card-body">
+                            <h5>Description about Book </h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
+                                architecto
+                                vero eveniet sit eos aspernatur ipsum dicta error quas perferendis, facere sequi
+                                temporibus
+                                labore deleniti! Laudantium, animi deleniti aperiam perferendis cum, sed dignissimos
+                                velit
+                                accusantium nulla quo vel, consequuntur nostrum enim unde pariatur minus omnis ipsam
+                                ducimus
+                                ullam sunt doloremque?</p>
+                            <button class="btn btn-success mt-3"><a
+                                    href="https://drive.google.com/file/d/1-Gqoy2e8082Lq-esFP7HPjAp_oAcLte8/view?usp=sharing"
+                                    class="btn text-light">Preview</a></button>
+                            <button class="btn btn-success mt-3" type="submit"><a
+                                    href="/ebook-site/Books/web_Development/Art_of_Java_Web_Development.pdf"
+                                    class="btn text-light">Download</a></button>
+                            <button class="btn btn-success mt-3"><a href="/Website/E-books/Book1.html"
+                                    class="btn text-light">Details Here</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-5">
+        <div class="card">
+            <div class="card-header">
+                <h3><b>PHP and MYSQL Web Development</b></h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <img id="book" class="col-5" src="/ebook-site/Books_Thumbnail/PHP and MYSQL Web Development.jpg" alt="">
+                    <div class="card col-7">
+                        <div class="card-body">
+                            <h5>Description about Book</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
+                                architecto
+                                vero eveniet sit eos aspernatur ipsum dicta error quas perferendis, facere sequi
+                                temporibus
+                                labore deleniti! Laudantium, animi deleniti aperiam perferendis cum, sed dignissimos
+                                velit
+                                accusantium nulla quo vel, consequuntur nostrum enim unde pariatur minus omnis ipsam
+                                ducimus
+                                ullam sunt doloremque?</p>
+                            <button class="btn btn-success mt-3"><a href="https://drive.google.com/file/d/1-Q0KNE4r_HN-Zti_kmhXA6Yc4LdpkybZ/view?usp=sharing" class="btn text-light">Preview</a></button>
+                            <button class="btn btn-success mt-3" type="submit"><a href="/Website/Books/web_Development/PHP and MySQL Web Development 4th Edition.pdf"
+                                    class="btn text-light">Download</a></button>
+                            <button class="btn btn-success mt-3"><a href="/ebook-site/E-books/book2.html"
+                                    class="btn text-light">Details Here</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-5">
+        <div class="card">
+            <div class="card-header">
+                <h3><b>Book-3 Title Here</b></h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <img id="book" class="col-5" src="\ebook-site\pexels-instawalli-169789.jpg" alt="">
+                    <div class="card col-7">
+                        <div class="card-body">
+                            <h5>Description about Book</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
+                                architecto
+                                vero eveniet sit eos aspernatur ipsum dicta error quas perferendis, facere sequi
+                                temporibus
+                                labore deleniti! Laudantium, animi deleniti aperiam perferendis cum, sed dignissimos
+                                velit
+                                accusantium nulla quo vel, consequuntur nostrum enim unde pariatur minus omnis ipsam
+                                ducimus
+                                ullam sunt doloremque?</p>
+                            <button class="btn btn-success mt-3"><a href="#" class="btn text-light">Preview</a></button>
+                            <button class="btn btn-success mt-3" type="submit"><a href="#"
+                                    class="btn text-light">Download</a></button>
+                            <button class="btn btn-success mt-3"><a href="book_detail\Book1.html"
+                                    class="btn text-light">Details Here</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container m-5">
+        <div class="card">
+            <div class="card-header">
+                <h3><b>Book-4 Title Here</b></h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <img id="book" class="col-5" src="\ebook-site\pexels-instawalli-169789.jpg" alt="">
+                    <div class="card col-7">
+                        <div class="card-body">
+                            <h5>Description about Book</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
+                                architecto
+                                vero eveniet sit eos aspernatur ipsum dicta error quas perferendis, facere sequi
+                                temporibus
+                                labore deleniti! Laudantium, animi deleniti aperiam perferendis cum, sed dignissimos
+                                velit
+                                accusantium nulla quo vel, consequuntur nostrum enim unde pariatur minus omnis ipsam
+                                ducimus
+                                ullam sunt doloremque?</p>
+                            <button class="btn btn-success mt-3"><a href="#" class="btn text-light">Preview</a></button>
+                            <button class="btn btn-success mt-3" type="submit"><a href="#"
+                                    class="btn text-light">Download</a></button>
+                            <button class="btn btn-success mt-3"><a href="book_detail\Book1.html"
+                                    class="btn text-light">Details Here</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
